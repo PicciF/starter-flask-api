@@ -3,6 +3,6 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
-def index():
-    return 'ciao'
+@app.route('/')
+def hello_world():
+    return 'Hello, world!'
